@@ -29,10 +29,10 @@
             <div class="navbar bg-base-100 bg-[#F85559] rounded-full p-5 container mx-auto ">
                 <div class="navbar-start">
                   <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost btn-circle">
+                    <label tabindex="0" class="btn btn-ghost btn-circle"><i class="fa-solid fa-bars text-[20px] ml-[600px] lg:hidden"></i>
                       
                     </label>
-                    <ul class="flex gap-7 -mt-[50px] text-white">
+                    <ul class=" hidden lg:flex gap-7 -mt-[50px] text-white">
                       <li><a href="">Home</a></li>
                       <li><a href="">About Us</a></li>
                       <li><a href="">Shop</a></li>
@@ -42,7 +42,8 @@
                 </div>
                 <div class="navbar-center -ml-[150px]">
                     <img src="./images/logo.png" alt="">
-                  <a class="btn btn-ghost normal-case text-[40px]">Fruit Burst</a>
+                  <a class="ml-[40px]   lg:btn btn-ghost normal-case text-[40px]">Fruit Burst</a>
+                
                 </div>
                 <div>
                     <i class="fa-solid fa-magnifying-glass relative left-[540px]" style="color: #010409"></i>
@@ -50,7 +51,7 @@
                    
                     <input type="text" placeholder="search" class="py-2 px-[50px] rounded-full ml-[300px]" name="" id="">
                 </form>
-              
+               
               </div>
         </nav>
 
@@ -59,14 +60,14 @@
     <main>
 
 <!-- deal of the day -->
-<section>
-    <div class="flex justify-around items-center">
+<section class="container mx-auto">
+    <div class=" flex-row space-y-20 lg:flex flex-row justify-around items-center mt-[100px]">
     <div>
-        <h1 class="text-[48px]">Deal of the day</h1>
+        <h1 class="ml-[50px] text-[48px]  lg:text-[48px]   font-bold">Deal of the day</h1>
         <p class="text-[16px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
     </div>
     <!-- time -->
-    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+    <div class="ml-[80px]  lg: grid grid-flow-col gap-5 text-center auto-cols-max">
         <div class="flex flex-col">
           <span class="countdown font-mono text-5xl">
             <span style="--value:15;"></span>
@@ -94,13 +95,13 @@
       </div>
     </div>
 <!-- card container -->
-<div class="grid grid-cols-4 ">
-    <div>
+<div class="grid grid-cols-1 lg:grid-cols-4 gap-[20px] px-[40px] py-[60px] mt-[100px]">
+    <div class=" border border-[#1212121A] px-[110px]">
         <img src="./images/fruit6.png" alt="">
-        <h1 class="text-[24px] font-bold">12.90$ - 18.85$</h1>
-        <p class="text-[16px] ml-[50px]">Apples</p>
+        <h1 class="text-[24px] font-bold text-center">12.90$ - 18.85$</h1>
+        <p class="text-[16px] ml-[40px]">Apples</p>
     
-    <div class="rating rating-half ml-[10px]">
+    <div class="rating rating-half ">
         <input type="radio" name="rating-10" class="rating-hidden" />
         <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
         <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2 checked" />
@@ -113,17 +114,17 @@
         <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
         <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
       </div><br>
-        <a class="text-red-700 ml-[50px] href="">Details</a>
+        <a class="text-red-700 ml-[50px]" href="">Details</a>
       </div>
 
 
 
-<div class="">
+<div class=" border border-[#1212121A] px-[110px]">
     <img src="./images/fruit7.png" alt="">
-    <h1 class="text-[24px] font-bold">12.90$ - 18.85$</h1>
-    <p class="text-[16px] ml-[50px]">Orange</p>
+    <h1 class="text-[24px] font-bold text-center">12.90$ - 18.85$</h1>
+    <p class="text-[16px] ml-[40px]">Orange</p>
 
-<div class="rating rating-half ml-[20px]">
+<div class="rating rating-half">
     <input type="radio" name="rating-10" class="rating-hidden" />
     <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
     <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2 checked" />
@@ -140,16 +141,16 @@
   </div>
 
 
-  <div>
+  <div class=" border border-[#1212121A] px-[110px]">
     <img src="./images/fruit8.png" alt="">
-    <h1 class="text-[24px] font-bold">12.90$ - 18.85$</h1>
-    <p class="text-[16px] ml-[50px]">Red Dragon</p>
+    <h1 class="text-[24px] font-bold text-center">12.90$ - 18.85$</h1>
+    <p class="text-[16px] ml-[20px]">Red Dragon</p>
 
-<div class="rating rating-half ml-[25px]">
+<div class="rating rating-half">
     <input type="radio" name="rating-10" class="rating-hidden" />
     <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
-    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2 checked" />
-    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1"checked />
     <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
     <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
     <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
@@ -158,19 +159,19 @@
     <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
     <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
   </div><br>
-    <a class="text-red-700 ml-[50px] href="">Details</a>
+    <a class="text-red-700 ml-[50px]" href="">Details</a>
   </div>
 
 
-  <div>
+  <div class=" border border-[#1212121A] px-[110px]">
     <img src="./images/fruit9.png" alt="">
-    <h1 class="text-[24px] font-bold">12.90$ - 18.85$</h1>
+    <h1 class="text-[24px] font-bold text-center">12.90$ - 18.85$</h1>
     <p class="text-[16px] ml-[50px]">Banana</p>
 
-<div class="rating rating-half ml-[20px]">
+<div class="rating rating-half">
     <input type="radio" name="rating-10" class="rating-hidden" />
     <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
-    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2 checked" />
+    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2"checked />
     <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
     <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
     <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
@@ -180,10 +181,13 @@
     <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
     <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
   </div> <br>
-    <a class="text-red-700 ml-[50px] href="">Details</a>
+    <a class="text-red-700 ml-[50px]" href="">Details</a>
   </div>
 </div>
-
+<div>
+  <button class="bg-[#F85559] py-[20px] px-[30px] rounded-[8px]
+  relative left-[720px] my-[50px] text-white">Shop All</button>
+</div>
 </section>
 
 <!-- meet team section -->
@@ -198,7 +202,7 @@
    
 
         <!-- img container -->
-       <div class="grid grid-cols-4 gap-[100px] ">
+       <div class="grid grid-cols-1 p-[150px] lg:grid-cols-4 gap-[100px] ">
 
        <div>
         <div class="flex ">
@@ -275,12 +279,74 @@
   </div>
 </section>
 
+
+<!-- why choose section -->
+<section class="mt-[100px]">
+
+
+  <div class="text-center">
+    <h1 class="text-[48px] font-bold">Why Choose Us</h1>
+    <p class="text-[16px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+  </div>
+
+  <div class=" flex-col md:flex lg:flex-row justify-around mt-[100px]">  
+    <div>
+      <h1 class="text-[24px] font-bold ">Dedicated Team</h1>
+      <p class="border-b-4 w-[120px]"></p>
+      <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p><br>
+      <h1 class="text-[24px] font-bold">Fresh is Best</h1>
+      <p class="border-b-4 w-[120px]"></p>
+      <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p><br>
+<h1 class="text-[24px] font-bold">Gift Certificates</h1>
+<p class="border-b-4 w-[120px]"></p>
+<p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+    </div>
+  <div class="w-[400px] h-[400px]">
+    <img src="./images/whychoose1.png" alt="">
+  </div>
+<div>
+<h1 class="text-[24px] font-bold">Integrated Supplier</h1>
+<p class="border-b-4 w-[120px]"></p>
+<p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p><br>
+<h1 class="text-[24px] font-bold">Sustainable Practice</h1>
+<p class="border-b-4 w-[120px]"></p>
+<p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p><br>
+<h1 class="text-[24px] font-bold">The Benefits Only</h1>
+<p class="border-b-4 w-[120px]"></p>
+<p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p><br>
+</div>
+  </div>
+</section>
+
     </main>
     
-    <footer>
 
+  <footer class="footer footer-center p-10 bg-[#121212] text-primary-content container mx-auto mt-[50px]">
+    
+      <div class="flex items-center">
+        <img src="./images/logo.png" alt="">
+        <h1 class="text-[40px] font-bold">Fruit Burst</h1>
+      </div>
+      <div class="grid grid-cols-6">
+       <p>Home</p>
+       <p>About Us</p>
+       <p>Shop</p>
+       <p>All Fruits</p>
+       <p>Support</p>
+       <p>My Account</p>
+      </div>
+      <div class="grid grid-cols-6 gap-[40px]">
+        <i class="fa-brands fa-twitter text-[40px]" style="color: #f4f7fa;"></i>
+        <i class="fa-brands fa-facebook-f text-[40px]" style="color: #f7f7f7;"></i>
+        <i class="fa-brands fa-youtube text-[40px]" style="color: #fcfcfd;"></i>
+        <i class="fa-brands fa-linkedin-in text-[40px]" style="color: #fafafa;"></i>
+        <i class="fa-brands fa-instagram text-[40px]" style="color: #fafcff;"></i>
+        <i class="fa-brands fa-apple text-[40px]" style="color: #f0f2f5;"></i>
+      </div>
+   
+  </footer>
 
-    </footer>
+    
 
 </body>
 </html>
